@@ -1,8 +1,14 @@
+
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-      <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""/>
+        <img
+          src="/docs/4.0/assets/brand/bootstrap-solid.svg"
+          width="30"
+          height="30"
+          alt=""
+        />
       </a>
       <button
         className="navbar-toggler"
