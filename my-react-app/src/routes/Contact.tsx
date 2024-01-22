@@ -3,7 +3,7 @@
 const Contact = () => {
     return (
         <>
-            
+            contact info
         </>
     );
 };

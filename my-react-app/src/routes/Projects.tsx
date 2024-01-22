@@ -3,7 +3,7 @@
 const Projects = () => {
     return (
         <>
-            
+            project
         </>
     );
 };
