@@ -2,9 +2,10 @@
 
 const Home = () => {
     return (
-        <>
-            Home
-        </>
+        <div>
+            <h1>Roman Tait</h1>
+            <h2>Software developer from Texas Tech University</h2>
+        </div>
     );
 };
 

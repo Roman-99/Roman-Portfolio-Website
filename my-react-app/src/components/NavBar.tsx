@@ -1,7 +1,8 @@
 import { LinkContainer } from "react-router-bootstrap";
+
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark gradient-custom">
       <a className="navbar-brand" href="#">
         <img
           src="/docs/4.0/assets/brand/bootstrap-solid.svg"
