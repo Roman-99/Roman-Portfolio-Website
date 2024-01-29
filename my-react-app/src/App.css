@@ -17,8 +17,48 @@
   );
 }
 
-h1 {
-  font-style: italic;
-  background-color: #248888;
+.navbar-custom {
+  height: 75px;
+  font-size: 1.5em;
+}
+
+navbar-toggler {
+  text-align:right
+}
+
+h1.name {
+  background-color: transparent;
   text-align: center;
+  font-size: 8em;
+  margin: 250px 75px 20px 75px
+}
+
+h1.title {
+  background-color: transparent;
+  text-align: center;
+  font-size: 6em;
+  text-decoration: underline;
+}
+
+h2 {
+  background-color: transparent;
+  text-align: center;
+  font-size: 2em;
+}
+
+h3 {
+  background-color: transparent;
+  text-align: center;
+  font-size: 3em;
+  margin: 100px 75px 20px 75px
+}
+
+h4 {
+  background-color: transparent;
+  text-align: center;
+  font-size: 3em;
+}
+
+body {
+  background-color: #888888;
 }

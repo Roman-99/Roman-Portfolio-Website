@@ -3,8 +3,8 @@
 const Home = () => {
     return (
         <div>
-            <h1>Roman Tait</h1>
-            <h2>Software developer from Texas Tech University</h2>
+            <h1 className="name">Roman Tait</h1>
+            <h2>Software developer</h2>
         </div>
     );
 };

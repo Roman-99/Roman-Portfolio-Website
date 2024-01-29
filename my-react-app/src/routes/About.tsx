@@ -1,17 +1,22 @@
 //import React from 'react';
 
 const Aboutt = () => {
-    return (
-        <div>
-        <h1>I graduated from Texas Tech University 
-            majoring in Computer Science and with minors 
-            in Math and Mechanical Engineering.
+  return (
+    <div>
+      <body>
+        <h1 className="title">
+            About Me
         </h1>
-        <h2>
-            bullet points
-        </h2>
-        </div>
-    );
+        <h3>
+          I graduated from Texas Tech University majoring in Computer Science
+          and with minors in Math and Mechanical Engineering. I have a drive
+          to learn and improve at everythingcoding from artificial intelligence 
+          to front-end design.
+        </h3>
+        <h4>bullet points</h4>
+      </body>
+    </div>
+  );
 };
 
 export default Aboutt;

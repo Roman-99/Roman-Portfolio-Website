@@ -2,10 +2,10 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark gradient-custom">
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-custom gradient-custom">
       <a className="navbar-brand" href="#">
         <img
-          src="/docs/4.0/assets/brand/bootstrap-solid.svg"
+          src="/../assets/react.svg"
           width="30"
           height="30"
           alt=""
@@ -22,8 +22,8 @@ function NavBar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
+      <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+        <ul className="navbar-nav navbar-right">
           <LinkContainer to="/">
             <li className="nav-item active">
               <a className="nav-link">Home</a>
@@ -36,12 +36,16 @@ function NavBar() {
           </LinkContainer>
           <LinkContainer to="/Projects">
             <li className="nav-item">
-              <a className="nav-link" href="#">Projects</a>
+              <a className="nav-link" href="#">
+                Projects
+              </a>
             </li>
           </LinkContainer>
           <LinkContainer to="/Contact">
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact Info</a>
+              <a className="nav-link" href="#">
+                Contact Info
+              </a>
             </li>
           </LinkContainer>
         </ul>
