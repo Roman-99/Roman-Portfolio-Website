@@ -4,12 +4,7 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-custom gradient-custom">
       <a className="navbar-brand" href="#">
-        <img
-          src="/../assets/react.svg"
-          width="30"
-          height="30"
-          alt=""
-        />
+        <img src="/../assets/react.svg" width="30" height="30" alt="" />
       </a>
       <button
         className="navbar-toggler"
@@ -22,7 +17,10 @@ function NavBar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <div
+        className="collapse navbar-collapse d-flex justify-content-end"
+        id="navbarNav"
+      >
         <ul className="navbar-nav navbar-right">
           <LinkContainer to="/">
             <li className="nav-item active">
@@ -36,16 +34,12 @@ function NavBar() {
           </LinkContainer>
           <LinkContainer to="/Projects">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Projects
-              </a>
+              <a className="nav-link">Projects</a>
             </li>
           </LinkContainer>
           <LinkContainer to="/Contact">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact Info
-              </a>
+              <a className="nav-link">Contact Info</a>
             </li>
           </LinkContainer>
         </ul>

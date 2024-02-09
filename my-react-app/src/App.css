@@ -22,15 +22,12 @@
   font-size: 1.5em;
 }
 
-navbar-toggler {
-  text-align:right
-}
-
 h1.name {
   background-color: transparent;
   text-align: center;
   font-size: 8em;
-  margin: 250px 75px 20px 75px
+  margin: 250px 75px 20px 75px;
+  color: rgb(245, 245, 245);
 }
 
 h1.title {
@@ -38,27 +35,31 @@ h1.title {
   text-align: center;
   font-size: 6em;
   text-decoration: underline;
+  color: rgb(245, 245, 245);
 }
 
 h2 {
   background-color: transparent;
   text-align: center;
   font-size: 2em;
+  color: rgb(245, 245, 245);
 }
 
 h3 {
   background-color: transparent;
   text-align: center;
   font-size: 3em;
-  margin: 100px 75px 20px 75px
+  margin: 100px 75px 20px 75px;
+  color: rgb(245, 245, 245);
 }
 
 h4 {
   background-color: transparent;
   text-align: center;
   font-size: 3em;
+  color: rgb(245, 245, 245);
 }
 
 body {
-  background-color: #888888;
+  background-color: transparent;
 }
