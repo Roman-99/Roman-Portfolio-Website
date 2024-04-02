@@ -1,0 +1,70 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+}
+
+.navbar-custom {
+  height: 10%;
+  font-size: 1.5em;
+}
+
+
+h1.name {
+  background-color: transparent;
+  text-align: center;
+  font-size: 8em;
+  margin: 250px 75px 20px 75px;
+  color: rgb(245, 245, 245);
+}
+
+h1.title {
+  background-color: transparent;
+  text-align: center;
+  font-size: 6em;
+  text-decoration: underline;
+  color: rgb(245, 245, 245);
+}
+
+h2 {
+  background-color: transparent;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(245, 245, 245);
+}
+
+h3 {
+  background-color: transparent;
+  text-align: center;
+  font-size: 3em;
+  margin: 100px 75px 20px 75px;
+  color: rgb(245, 245, 245);
+}
+
+h4 {
+  background-color: transparent;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(245, 245, 245);
+}
+
+body {
+  background-color: transparent;
+}
+
+div {
+  background-color: transparent;
+}
