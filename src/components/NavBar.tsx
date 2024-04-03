@@ -2,47 +2,37 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark navbar-custom gradient-custom">
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div
-        className="collapse navbar-collapse d-flex justify-content-end"
-        id="navbarNav"
-      >
-        <ul className="navbar-nav navbar-right">
-          <LinkContainer to="/">
-            <li className="nav-item active">
-              <a className="nav-link">Home</a>
-            </li>
-          </LinkContainer>
-          <LinkContainer to="/About">
-            <li className="nav-item">
-              <a className="nav-link">About</a>
-            </li>
-          </LinkContainer>
-          <LinkContainer to="/Projects">
-            <li className="nav-item">
-              <a className="nav-link">Projects</a>
-            </li>
-          </LinkContainer>
-          <LinkContainer to="/Contact">
-            <li className="nav-item">
-              <a className="nav-link">Contact Info</a>
-            </li>
-          </LinkContainer>
-        </ul>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark navbar-custom gradient-custom">
+      <div className="container-fluid">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a className="nav-link active" aria-current="page" href="#">
+              Home
+            </a>
+            <a className="nav-link" href="#">
+              Features
+            </a>
+            <a className="nav-link" href="#">
+              Pricing
+            </a>
+            <a className="nav-link disabled" aria-disabled="true">
+              Disabled
+            </a>
+          </div>
+        </div>
       </div>
     </nav>
   );
 }
-
 export default NavBar;
