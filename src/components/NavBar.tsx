@@ -17,18 +17,26 @@ function NavBar() {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
+            <LinkContainer to="/">
+            <a className="nav-link">
               Home
             </a>
-            <a className="nav-link" href="#">
-              Features
+            </LinkContainer>
+            <LinkContainer to="/About">
+            <a className="nav-link">
+              About
             </a>
-            <a className="nav-link" href="#">
-              Pricing
+            </LinkContainer>
+            <LinkContainer to="/Projects">
+            <a className="nav-link">
+              Projects
             </a>
-            <a className="nav-link disabled" aria-disabled="true">
-              Disabled
+            </LinkContainer>
+            <LinkContainer to="/Contact">
+            <a className="nav-link">
+              Contact Info
             </a>
+            </LinkContainer>
           </div>
         </div>
       </div>
