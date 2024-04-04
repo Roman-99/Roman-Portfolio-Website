@@ -11,11 +11,13 @@ gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, useGSAP);
 
 function App() {
   return (
-    <div>
+    <body>
       <NavBar />
-      <LavaLamp />
-      <Router />
-    </div>
+      <main>
+        <LavaLamp />
+        <Router />
+      </main>
+    </body>
   );
 }
 
