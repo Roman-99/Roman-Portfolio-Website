@@ -27,6 +27,7 @@ h1.name {
   color: rgb(245, 245, 245);
   text-align: center;
   mix-blend-mode: exclusion;
+  margin-top: 10%;
 }
 
 h1.title {
@@ -35,6 +36,7 @@ h1.title {
   font-size: 6em;
   color: rgb(245, 245, 245);
   mix-blend-mode: exclusion;
+  margin-top: 10%;
 }
 
 h2 {
