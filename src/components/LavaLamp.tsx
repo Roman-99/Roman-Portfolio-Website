@@ -12,6 +12,7 @@ export default function LavaLamp() {
         ease: "none",
         repeat: -1,
         yoyo: true,
+        delay: gsap.utils.random(1, 5),
         repeatRefresh: true
       });
     }

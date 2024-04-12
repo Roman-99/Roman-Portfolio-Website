@@ -12,8 +12,9 @@ function App() {
     <body>
       <LavaLamp />
       <NavBar />
+      <Router />
       <main>
-        <Router />
+        
       </main>
     </body>
   );

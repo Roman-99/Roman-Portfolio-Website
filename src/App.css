@@ -10,7 +10,7 @@
   backdrop-filter: blur(20px);
 }
 
-main {
+Router {
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -18,13 +18,14 @@ main {
   display:flex;
   justify-content: center;
   align-items: center;
+  position:absolute;
 }
 
 h1.name {
   background-color: transparent;
   font-size: 8em;
   color: rgb(245, 245, 245);
-  margin-top: -40%;
+  text-align: center;
   mix-blend-mode: exclusion;
 }
 
@@ -63,6 +64,7 @@ h4 {
 
 body {
   background-color: transparent;
+  font-family: "Monserrat", "Open Sans", sans-serif, system-ui, Helvetica, Arial;
 }
 
 div {
