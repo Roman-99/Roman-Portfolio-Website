@@ -2,7 +2,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark navbar-custom gradient-custom">
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-custom top-0 w-100">
       <div className="container-fluid">
         <button
           className="navbar-toggler"

@@ -1,20 +1,18 @@
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
-import { useGSAP } from '@gsap/react';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 
-import NavBar from './components/NavBar';
+import NavBar from "./components/NavBar";
 import LavaLamp from "./components/LavaLamp";
-import Router from './router';
+import Router from "./router";
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, useGSAP);
+gsap.registerPlugin(useGSAP);
 
 function App() {
   return (
     <body>
+      <LavaLamp />
       <NavBar />
       <main>
-        <LavaLamp />
         <Router />
       </main>
     </body>

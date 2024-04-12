@@ -1,25 +1,13 @@
-.gradient-custom {
-  /* fallback for old browsers */
-  background: #6a11cb;
-
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(
-    to right,
-    rgba(106, 17, 203, 1),
-    rgba(37, 117, 252, 1)
-  );
-
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(
-    to right,
-    rgba(106, 17, 203, 1),
-    rgba(37, 117, 252, 1)
-  );
-}
 
 .navbar-custom {
   height: 10%;
   font-size: 1.5em;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
 }
 
 main {
@@ -37,14 +25,15 @@ h1.name {
   font-size: 8em;
   color: rgb(245, 245, 245);
   margin-top: -40%;
+  mix-blend-mode: exclusion;
 }
 
 h1.title {
   background-color: transparent;
   text-align: center;
   font-size: 6em;
-  text-decoration: underline;
   color: rgb(245, 245, 245);
+  mix-blend-mode: exclusion;
 }
 
 h2 {
@@ -52,6 +41,7 @@ h2 {
   text-align: center;
   font-size: 2em;
   color: rgb(245, 245, 245);
+  mix-blend-mode: exclusion;
 }
 
 h3 {
@@ -60,6 +50,7 @@ h3 {
   font-size: 3em;
   margin: 100px 75px 20px 75px;
   color: rgb(245, 245, 245);
+  mix-blend-mode: exclusion;
 }
 
 h4 {
@@ -67,6 +58,7 @@ h4 {
   text-align: center;
   font-size: 3em;
   color: rgb(245, 245, 245);
+  mix-blend-mode: exclusion;
 }
 
 body {

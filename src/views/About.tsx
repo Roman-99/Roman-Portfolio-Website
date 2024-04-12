@@ -6,12 +6,12 @@ const About = () => {
             About Me
         </h1>
         <h3>
-          I graduated from Texas Tech University majoring in Computer Science
-          and with minors in Math and Mechanical Engineering. I have a drive
-          to learn and improve at everythingcoding from artificial intelligence 
-          to front-end design.
+          I'm a software developer based in Austin, Texas. I Graduated from Texas Tech University 
+          with a major in computer science and minors in math and mechanical engineering. 
+
+          I'm passionate about sleek and stylized UI interfaces and artificial intelligence.
         </h3>
-        <h4>bullet points</h4>
+        <h4></h4>
       </body>
     </div>
   );
